@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Favly Biz cc layout</title>
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/images/favicon/manifest.json">
+
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png" />
+<meta name="theme-color" content="#ffffff" />
+
+<link media="all" rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+<link media="all" rel="stylesheet" href="css/style.css">
+<link media="all" rel="stylesheet" href="css/responsive.css">
+
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/js/jquery-ui.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+    </head>
+
+<body id="page-top" class="">
+<header class="main_landingheader">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="logo_favlybiz">
+                    <a href="/">
+                            <img src="images/header_favly_logo.png" alt="logo">
+                      </a>
+                </div>
+
+                <ul class="main_landingmenu">
+                        <li class="biz_loginbtn_desktop"><a href="/account/login" class="biz_loginbtn">biz login</a></li>
+                        <li class="biz_loginbtn_mobile"><a href="/account/login"><span class="biz_loginicon"></span></a></li>
+                </ul>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+
+.StripeElement {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 16px 12px;
+  height: 54px;
+  border-radius: 9px;
+  border: solid 3px #939599;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  background-color: white;
+}
+
+.StripeElement--invalid {
+  border-color: #ff0000;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+</style>
+
+
+<div class="favlybiz_creditcardbg" data-parallax="scroll" data-image-src="images/creditcard_bg.jpg" style="background-color: #f90;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="favlybiz_creditcard_heading">Start your 30-day free trial as a Favly Biz</div>
+                <div class="col-sm-12"><div class="favlybiz_creditcard_subhead">Your email address has been confirmed. Next, enter your payment info.</div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 ipad_cardeitcardtext">
+                <div class="favlybiz_creditcard_leftbox-psf">
+                   <p><img src="images/email-bltwht-assoc2.png" width="53" height="58" alt="Associations" align="left">Associate with other best&#8209;in&#8209;class local businesses</p>
+                  <p><img src="images/email-bltwht-giftcard.png" width="53" height="58" alt="gift card" align="left">Create, customize, sell and promote your own gift cards</p>
+                  <p><img src="images/email-bltwht-2pulse.png" width="53" height="58" alt="post deals" align="left">Post your special deals and events to the Pulse</p>
+                  <p><img src="images/email-bltwht-2fav.png" width="53" height="58" alt="favly" align="left">Engage with the community to power your Favly Score</p>
+                    <p>… and much more!</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 ipad_cardeitcardform">
+                <div class="favlybiz_creditcard_rightboxbg">
+                    <div class="creditcard_limitedoffer">Limited Offer</div>
+                    <div class="creditcard_price">Favly Biz  <span class="creditcard_price_x">$129/mo</span> <span class="creditcard_price_new">$49/mo*</span></div>
+                    <div class="creditcard_text">You won't be billed until after your 30-day trial expires. You can cancel at any time.</div>
+
+                    <form method="post" id="payment-form" action="/account/subscribe">
+
+                        <div class="form-group">
+                            <input id="name" type="text" class="login_textfield form-control" placeholder="Name">
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <div class="form-group creditcard_cardbox">
+                            <div id="card-element">
+
+                            <!-- a Stripe Element will be inserted here. -->
+
+                            </div>
+                            <div id="card-errors" role="alert" style="color: red"></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6 ipad_startbtnbox">
+                                <input value="Start Free Trial" class="creditcard_btn" type="submit">
+                            </div>
+                            <div class="col-sm-6 ipad_starttextbox">
+                                <div class="creditcard_btn_text">*Valid for 12 months after 30-day free trial. By signing up, you agree to our Terms of Service and Privacy Policy.</div>
+                            </div>
+                        </div>
+
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8GIG_UCZEK9LmyaixWdx7OpjUC6j1Qvs00T8DXkYGQE86ueo4R__9CsJLka7giEjt7PKhSl6DNnImR1ixaK4VzZQ8VpkeQpM-OkSMV_G9e7swwi9CVkPadvmTrzaB0jYz-cDB07uhktzV3jNmHq8tBA" /></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer_wrap">
+        <div class="container">
+            <div class="row" style="margin:0px;">
+                <div class="col-sm-12">
+                    <ul class="footerbox">
+                        <li><a href="/terms-conditions">Terms of Service</a></li>
+                        <li>|</li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li>|</li>
+                        <li><a href="mailto:support@favly.com">Customer Support</a></li>
+                        <li>|</li>
+                        <li>Copyright 2017 Favly, Inc. All rights reserved.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script src="/js/parallax.js"></script>
+<script>
+    var stripe = Stripe("pk_test_C2tas50xc3nRuq734MlVgmjl");
+
+        // Create an instance of Elements
+        var elements = stripe.elements();
+        var style = {
+                invalid: {
+                color: '#ff0000',
+                iconColor: '#ff0000'
+            }
+        };
+
+        // Create an instance of the card Element
+        var card = elements.create('card', { style: style });
+
+        // Add an instance of the card Element into the `card-element` <div>
+        card.mount('#card-element');
+
+        // Handle real-time validation errors from the card Element.
+        card.addEventListener('change', function (event) {
+            var displayError = document.getElementById('card-errors');
+            if (event.error) {
+                displayError.textContent = event.error.message;
+            } else {
+                displayError.textContent = '';
+            }
+        });
+
+        var CreditCardHolderName = $("#name").val();
+
+        // Handle form submission
+        var form = document.getElementById('payment-form');
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+           var CreditCardHolderName = $("#name").val();
+            stripe.createToken(card).then(function (result) {
+                if (result.error) {
+
+                    // Inform the user if there was an error
+                    $("#card-error").val(message.responseText);
+                    alert(result.error.message);
+                } else {
+
+                    // Send the token to your server
+
+                    // Posting Data TO  Account/Subscribe
+                    debugger;
+                    $.ajax({
+                        type: "GET",
+                        url: "/account/subscribewithtoken",
+                        data: { cardToken: result.token.id },
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data)
+                        {
+                            window.location.href = data;
+                        },
+
+                        error: function (message)
+
+                        {
+                            $("#card-error").val(message.responseText);
+                        },
+                    });
+                }
+            });
+        });
+
+        // Close Checkout on page navigation:
+        window.addEventListener('popstate', function () {
+            handler.close();
+        });
+
+</script>
+
+    </body>
+</html>
