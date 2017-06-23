@@ -1,0 +1,1317 @@
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .banner_heading {
+        padding-left: 0px;
+    }
+
+    .login_submitbox {
+        width: 100%;
+    }
+
+    .login_submitbox_p {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .slider_text {
+        margin-left: 95px;
+    }
+
+    .favlybiz_creditcard_rightboxbg {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .ipad_startbtnbox {
+        width: 100%;
+    }
+
+    .ipad_starttextbox {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .ipad_startsubmit {
+        width: 100%;
+    }
+
+    .download_boxdesktop {
+        padding-left: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ipad_askreferral {
+        width: 100%;
+    }
+
+    .downloadapp_btnwrap2 {
+        text-align: center !important;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .favly_biz_box {
+        padding-left: 0px;
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .favly_biz_signup {
+        margin-right: 0px;
+    }
+
+    .banner_heading {
+        padding-left: 0px;
+    }
+
+    .login_submitbox {
+        width: 100%;
+    }
+
+    .login_submitbox_p {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .slider_text {
+        margin-left: 75px;
+    }
+
+    .ipadresponsive_headertext {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ipadformbox {
+        width: 100%;
+    }
+
+    .banner_heading {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .login_box {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+
+    .ipad_slider {
+        width: 100%;
+    }
+
+    .slider_text {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+
+    .slider_imgbox {
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .downloadapp_imgmobile {
+        display: none;
+    }
+
+    .ipaddownload_box {
+        width: 100%;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .ipaddownload_wrap {
+        width: 100%;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .downloadapp_imgbox_h2 {
+        padding-top: 72px;
+    }
+
+    .downloadapp_btnwrap {
+        text-align: center;
+    }
+
+
+    .ipad_cardeitcardtext {
+        width: 100%;
+    }
+
+    .ipad_cardeitcardform {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .favlybiz_creditcard_leftbox {
+        padding-top: 40px;
+    }
+
+    .favlybiz_creditcard_leftbox-psf {
+        padding-top: 40px;
+    }
+
+    .ipad_startsubmit {
+        width: 100%;
+    }
+
+    .download_appheading {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .download_boxdesktop {
+        padding-left: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ipad_askreferral {
+        width: 100%;
+    }
+
+    .downloadapp_btnwrap2 {
+        text-align: center !important;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .onlinetool_banner {
+        display: none;
+    }
+
+    .onlinetool_banner_mobile {
+        display: block;
+    }
+
+    .banner_heading {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+
+    .login_box {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .login_p2 {
+        display: none;
+    }
+
+    .login_p {
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .banner_heading {
+        font-size: 48px;
+        line-height: 52px;
+        padding-bottom: 25px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 300;
+        padding-top: 60px;
+    }
+
+    .slider_text {
+        margin-left: 0px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .slider_imgbox {
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .slider_heading {
+        text-align: center;
+        padding-top: 57px;
+        font-size: 38px;
+    }
+
+    .slider_box {
+        padding-top: 0px;
+    }
+
+    .membership_box {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .how_much_text {
+        font-size: 32px;
+        padding-top: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .favly_biz_box {
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+    }
+
+    .favly_biz_signup {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .favly_biz_line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .favly_biz_wrap {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .faq_heading {
+        padding-bottom: 20px;
+    }
+
+    .faq_bg {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .desktop_view {
+        display: none;
+    }
+
+    .mobile_view {
+        display: block;
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+
+    .mobile_colum {
+        width: 50%;
+        float: left;
+        padding-left: 50px;
+    }
+
+    .login_p2_mobile {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .slider_text {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider_text_span {
+        font-size: 24px;
+    }
+
+    .whatis_favly {
+        font-size: 38px;
+        padding-top: 91px;
+        padding-bottom: 97px;
+    }
+
+    .whatis_favly_text {
+        font-size: 24px;
+        max-width: 360px;
+        line-height: 32px;
+    }
+
+    .favly_biz_h1 {
+        font-size: 38px;
+    }
+
+    .favly_biz_line {
+        margin-top: 64px;
+        margin-bottom: 0px;
+    }
+
+    .favly_biz_h2 {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    ul.favly_biz_list li {
+        font-size: 24px;
+    }
+
+    .favly_biz_h3 {
+        font-size: 28px;
+    }
+
+    .favly_biz_h4 {
+        font-size: 28px;
+    }
+
+    .favly_biz_p {
+        font-size: 12px;
+        display: none;
+    }
+
+    .faq_heading {
+        font-size: 38px;
+    }
+
+    .faq-box .q h3 {
+        font-size: 19px;
+    }
+
+    .faq-box li.a {
+        font-size: 19px;
+    }
+
+    .confirm_email_heading {
+        font-size: 28px;
+    }
+
+    .confirm_email_text {
+        font-size: 16px;
+    }
+
+    .download_appheading {
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+
+    .download_appmobile {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .download_app_biz_content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .favlybiz_creditcard_leftbox {
+        padding-top: 30px;
+    }
+
+    .favlybiz_creditcard_leftbox-psf {
+        padding-top: 30px;
+    }
+
+    .favlybiz_creditcard_rightboxbg {
+        margin-bottom: 60px;
+    }
+
+    .creditcard_btn_text {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .landing_bannerheading {
+        text-align: center;
+        padding-right: 0px;
+        font-size: 32px;
+        line-height: 38px;
+        padding-top: 72px;
+    }
+
+    .landing_scorebox_heading {
+        text-align: center;
+        font-size: 38px;
+        padding-bottom: 35px;
+    }
+
+    .landing_scorebox_text {
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .business_learnmore {
+        margin-top: 20px;
+    }
+
+    .videoclose_btn {
+        right: 20px;
+        top: 20px;
+    }
+
+    .vimeo_video {
+        height: 530px;
+    }
+
+    .online_paddingmobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .slider_heading_h1 {
+        font-size: 38px;
+        padding-top: 45px;
+    }
+
+    .biz_loginbtn_desktop {
+        display: none !important;
+    }
+
+    .biz_loginbtn_mobile {
+        display: inline-block !important;
+    }
+
+    .downloadapp_btnwrap {
+        text-align: center;
+    }
+
+    .downloadapp_imgmobile {
+        display: none;
+    }
+
+    .downloadapp_imgbox_h2 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 38px;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 48px;
+    }
+
+    .downloadapp_imgbox_h1 {
+        text-align: center;
+        padding-right: 0px;
+        line-height: 60px;
+    }
+
+    .downloadapp_btnwrap {
+        padding-bottom: 73px;
+    }
+
+    ul.main_landingmenu {
+        margin-top: -10px;
+    }
+
+    .landing_pointer {
+        display: none;
+    }
+
+    .landing_scorebox {
+        margin-top: 0px;
+        padding-top: 66px;
+    }
+
+    .favly_asktext {
+        font-size: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 28px;
+        padding-bottom: 32px;
+    }
+
+    .needfavly_list_text {
+        font-size: 24px;
+    }
+
+    ul.needfavly_list li {
+        font-size: 24px;
+    }
+
+    ul.needfavly_list {
+        margin-bottom: 40px;
+    }
+
+    .business_learnmore {
+        min-height: 610px;
+    }
+
+    .download_app_biz_landingh1 {
+        font-size: 38px;
+        padding-top: 70px;
+        padding-bottom: 78px;
+    }
+
+    .download_app_biz_landingcontent {
+        font-size: 24px;
+        padding-left: 95px;
+        padding-right: 95px;
+    }
+
+    .download_app_biz_btn {
+        padding-left: 95px;
+        padding-right: 95px;
+    }
+
+    .download_app_submit {
+        position: static;
+    }
+
+    .favlybg {
+        min-height: 436px;
+    }
+
+    .favlybiz_creditcard_leftbox {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .favlybiz_creditcard_leftbox-psf {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .creditcard_btn {
+        width: 100%;
+    }
+
+    .loginpage_p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .loginpage_p2 {
+        text-align: center;
+    }
+
+    .ipaddownload_wrap {
+        width: 100%;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .newlogin_link {
+        display: block !important;
+    }
+
+    .newsubmit_btn {
+        width: 60%;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .download_app_input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .download_app_biz_heading {
+        padding-top: 100px;
+    }
+
+    .video_playbtn {
+        background-size: 50% 50%;
+    }
+
+    ul.main_landingmenu {
+        display: block;
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+
+    .banner_heading {
+        font-size: 38px;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    ul.header_btn li:first-child {
+        display: none;
+    }
+
+    a.login {
+        margin-left: 0px;
+    }
+
+
+
+
+    .download_app_biz_heading {
+        padding-top: 100px;
+        font-size: 38px;
+    }
+
+    .download_app_biz_content {
+        font-size: 22px;
+    }
+
+    .download_appheading {
+        font-size: 38px;
+    }
+
+    .googleplay_btn {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .favlybiz_creditcard_leftbox-psf {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .favlybiz_creditcard_leftbox {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .favlybiz_creditcard_heading {
+        font-size: 38px;
+    }
+
+    .favlybiz_creditcard_leftbox {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .favlybiz_creditcard_leftbox-psf {
+        font-size: 26px;
+        line-height: 30px;
+    }
+	
+	    .favlybiz_creditcard_leftbox-psf p {
+        margin-bottom: .7em;
+    }
+
+    .creditcard_text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .creditcard_btn {
+        width: 100%;
+    }
+
+    .creditcard_btn_text {
+        text-align: center;
+    }
+
+    .video_playbtn {
+        background-size: 40% 40%;
+        top: 30%;
+    }
+
+    .vimeo_video {
+        height: 430px;
+    }
+
+    .landing_bannerheading {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .landing_loginbox {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .downloadapp_imgbox_h2 {
+        padding-top: 30px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .downloadapp_imgbox_h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .logo {
+        width: 109px;
+        text-align: center;
+        float: left;
+    }
+
+    .logo_favlybiz {
+        width: 140px;
+        text-align: center;
+        float: left;
+    }
+
+    ul.main_landingmenu li {
+        font-size: 14px;
+        padding-left: 2px;
+    }
+
+    .download_app_biz_landingcontent {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    ul.main_landingmenu {
+        margin-top: 0px;
+    }
+
+    .banner_heading {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .login_box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .how_much_text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .favly_biz_box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .favly_asktext {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .download_app_biz_btn {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .mobile_view {
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .mobile_colum {
+        padding-left: 30px;
+        text-align: left;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .creditcard_price_new {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    .creditcard_price {
+        text-align: center;
+    }
+
+    .creditcard_limitedoffer {
+        text-align: center;
+    }
+
+    .download_appwrap {
+        padding-top: 20px;
+    }
+
+    .downloadapp_imgbox_h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 10px;
+    }
+
+    .downloadapp_imgbox_h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 10px;
+    }
+
+    .downloadapp_btnbox {
+        margin-right: 5px;
+    }
+
+    .downloadapp_appstore_btn {
+        width: 130px;
+        background-size: 100%;
+        height: 40px;
+    }
+
+    .downloadapp_googleplay_btn {
+        width: 130px;
+        background-size: 100%;
+        height: 40px;
+        top: 16px;
+    }
+
+    .googleplay_reglink {
+        font-size: 10px;
+        top: 12px;
+    }
+
+    .slider_heading_h1 {
+        font-size: 28px;
+    }
+
+    .slider_text_span {
+        font-size: 20px;
+    }
+
+    .landing_scorebox_heading {
+        font-size: 24px;
+    }
+
+    .landing_scorebox_text {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    .favly_biz_h1 {
+        font-size: 24px;
+    }
+
+    .favly_asktext {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    ul.needfavly_list li {
+        font-size: 16px;
+    }
+
+    .needfavly_list_text {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 25px;
+    }
+
+    .download_app_biz_landingh1 {
+        font-size: 28px;
+        padding-bottom: 35px;
+    }
+
+    .download_app_biz_landingcontent {
+        font-size: 16px;
+    }
+
+    .download_app_submit {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .slider_text {
+        font-size: 16px;
+    }
+
+    .biz_arrow {
+        top: 2px;
+    }
+
+    footer h1 {
+        font-size: 28px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .downloadapp_androidbtn {
+        width: 130px;
+        background-size: 100%;
+        height: 40px;
+        top: 26px;
+    }
+
+    footer ul li a {
+        font-size: 16px;
+    }
+
+    .bx-wrapper img {
+        max-width: 40%;
+    }
+
+    .slider_text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slider_heading {
+        padding-top: 0px;
+    }
+
+    .bx-wrapper {
+        margin-bottom: 30px;
+    }
+
+    ul.needfavly_list {
+        margin-bottom: 0px;
+    }
+
+    .downloadapp_btnwrap {
+        padding-bottom: 40px;
+    }
+
+    .business_learnmore {
+        margin-top: 10px;
+    }
+
+    .bx-wrapper .bx-controls-direction a {
+        width: 23px;
+        top: 65%;
+    }
+
+    .bx-wrapper .bx-next {
+        background-size: 100%;
+    }
+
+    .bx-wrapper .bx-prev {
+        background-size: 100%;
+    }
+
+    .banner_heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .login_heading {
+        font-size: 18px;
+    }
+
+    .login_submit {
+        font-size: 18px;
+    }
+
+    .slider_heading {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    .whatis_favly {
+        font-size: 28px;
+        padding-bottom: 45px;
+        padding-top: 83px;
+    }
+
+    .whatis_favly_text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .how_much_text {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .favly_biz_h2 {
+        font-size: 16px;
+    }
+
+    ul.favly_biz_list li {
+        font-size: 14px;
+    }
+
+    .favly_biz_h3 {
+        font-size: 18px;
+    }
+
+    .favly_biz_h4 {
+        font-size: 18px;
+    }
+
+    .faq_heading {
+        font-size: 28px;
+    }
+
+    .faq-box .q h3 {
+        font-size: 16px;
+    }
+
+    .faq-box li.a {
+        font-size: 16px;
+    }
+
+    .favlybg {
+        min-height: 300px;
+    }
+
+    .business_learnmore {
+        min-height: 480px;
+    }
+
+    .login_p2_mobile {
+        padding-top: 5px;
+    }
+
+    .biz_loginicon {
+        width: 23px;
+        height: 23px;
+        background-size: 100%;
+        top: 6px;
+    }
+
+    .download_appheading {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .download_app_store {
+        width: 130px;
+        background-size: 100%;
+        height: 40px;
+    }
+
+    .download_googleplay {
+        width: 130px;
+        background-size: 100%;
+        height: 40px;
+    }
+
+    .download_app_biz {
+        min-height: 480px;
+    }
+
+    .favlybiz_creditcard_heading {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .favlybiz_creditcard_leftbox {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .favlybiz_creditcard_leftbox-psf {
+        font-size: 20px;
+        line-height: 24px;
+    }
+	
+	.favlybiz_creditcard_leftbox-psf p {
+		margin-bottom: .7em;
+    }
+
+
+    .forgot_password_heading {
+        font-size: 28px;
+    }
+
+    .forgot_password_lable {
+        font-size: 16px;
+    }
+
+    .login_pagebg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .resend_text {
+        font-size: 16px;
+    }
+
+    ul.footerbox li {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .login_pagewrap {
+        padding-top: 50px;
+    }
+
+    .login_pagewrap {
+        min-height: inherit;
+    }
+
+    .newsubmit_btn {
+        width: 100%;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 360px) {
+    .banner_heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .slider_heading {
+        font-size: 28px;
+    }
+
+    .slider_text_span {
+        font-size: 20px;
+    }
+
+    .whatis_favly {
+        font-size: 28px;
+    }
+
+    .whatis_favly_text {
+        font-size: 20px;
+    }
+
+    .how_much_text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .favly_biz_h1 {
+        font-size: 28px;
+    }
+
+    .favly_biz_h2 {
+        font-size: 20px;
+    }
+
+    ul.favly_biz_list li {
+        font-size: 16px;
+    }
+
+    .favly_biz_h4 {
+        font-size: 20px;
+    }
+
+    .favly_biz_h3 {
+        font-size: 20px;
+    }
+
+    .faq_heading {
+        font-size: 28px;
+    }
+
+    .faq-box .q h3 {
+        font-size: 15px;
+    }
+
+    .faq-box li.a {
+        font-size: 15px;
+    }
+
+    footer h1 {
+        font-size: 22px;
+    }
+
+    footer ul li a {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .login_heading {
+        font-size: 16px;
+    }
+
+    .login_p2_mobile {
+        padding-top: 4px;
+    }
+
+    .login_submit {
+        font-size: 18px;
+    }
+
+    .confirm_email_heading {
+        font-size: 22px;
+    }
+
+    .confirm_email_text {
+        font-size: 14px;
+    }
+
+
+    .favlybiz_creditcard_leftbox {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+	
+    .favlybiz_creditcard_leftbox-psf {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .creditcard_limitedoffer {
+        text-align: center;
+    }
+
+    .creditcard_price_new {
+        float: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .favlybiz_creditcard_rightboxbg {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .video_playbtn {
+        background-size: 30% 30%;
+        top: 30%;
+    }
+
+    .vimeo_video {
+        height: 330px;
+    }
+
+    ul.main_landingmenu li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .download_app_biz_landingh1 {
+        padding-bottom: 20px;
+    }
+
+    .login_pagebg {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile_view {
+        padding-left: 15px;
+    }
+
+    .mobile_colum {
+        padding-left: 15px;
+    }
+
+    .logo {
+        width: 100%;
+        float: none;
+        height: 50px;
+    }
+
+    ul.main_landingmenu li {
+        font-size: 12px;
+    }
+
+    ul.footerbox li a {
+        font-size: 10px;
+    }
+
+    ul.footerbox li {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 10px;
+    }
+}
