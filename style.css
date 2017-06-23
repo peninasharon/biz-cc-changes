@@ -1110,18 +1110,9 @@ ul.bxslider {
     line-height: 60px;
 } */
 
-.favlybiz_creditcard_leftbox {
-    font-size: 28px;
-    color: #fff;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 110px;
-    padding-left: 0;
-    padding-right: 26px;
-    line-height: 29px;
-}
+/* ===== NEW CSS BEGINS HERE ===== */
 
-.favlybiz_creditcard_leftbox-psf {
+.favlybiz_creditcard_leftbox2 {
     font-size: 28px;
     color: #fff;
     font-weight: 300;
@@ -1133,11 +1124,11 @@ ul.bxslider {
 	text-align: left;
 }
 
-.favlybiz_creditcard_leftbox-psf p {
+.favlybiz_creditcard_leftbox2 p {
 	margin-bottom: .4em;
 }
 
-.favlybiz_creditcard_leftbox-psf img {
+.favlybiz_creditcard_leftbox2 img {
 	margin-right: 8px;
 	clear: both;
 	float: left;
@@ -1149,6 +1140,8 @@ ul.bxslider {
     color: #fff;
     font-weight: 300;
 }
+
+/* ===== NEW CSS ENDS HERE ===== */
 
 .favlybiz_creditcard_rightboxbg {
     background: #23255e;
