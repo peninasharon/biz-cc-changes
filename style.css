@@ -1,0 +1,1918 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
+
+/* Reset CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr {
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+    }
+
+    a:focus {
+    }
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+:focus {
+    outline: 0 !important;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+}
+
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+/*======= header css start here ====================*/
+.main_landingheader {
+    background: #000157;
+    border-bottom: solid 1px #fff;
+}
+
+header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.logo {
+    width: 109px;
+    height: 33px;
+    float: left;
+}
+
+.logo_favlybiz {
+    width: 140px;
+    height: 33px;
+    float: left;
+}
+
+ul.header_btn {
+    list-style: none;
+    float: right;
+}
+
+    ul.header_btn li {
+        display: inline-block;
+        font-size: 20px;
+        padding-left: 10px;
+        font-weight: 300;
+    }
+
+a.login {
+    color: #f47a29;
+    position: relative;
+    top: -1px;
+    font-size: 16px;
+    display: inline-block;
+    border: solid 2px #f47a29;
+    border-radius: 4px;
+    padding: 4px 25px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+/*======= index banner and slider css start here ====================*/
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+    text-align: center;
+}
+
+.favlybg {
+    min-height: 589px;
+    background: transparent;
+}
+
+.banner_heading {
+    font-size: 54px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 100px;
+}
+
+.login_box {
+    padding-top: 137px;
+    padding-left: 67px;
+}
+
+.login_heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.login_textfield {
+    border: solid 3px #939599;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 54px;
+    color: #6d6f73;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.login_submit {
+    width: 100%;
+    height: 54px;
+    background: #f47a29;
+    border: 0px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.login_p {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    font-family: Work Sans;
+}
+
+.loginpage_p {
+    font-size: 11px;
+    color: #000157;
+    font-weight: 400;
+    font-family: Work Sans;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.loginpage_p2 {
+    font-size: 11px;
+    color: #000157;
+    font-weight: 400;
+    font-family: Work Sans;
+    padding-top: 7px;
+    text-align: center;
+}
+
+
+
+
+.login_p2 {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    font-family: Work Sans;
+    padding-top: 7px;
+}
+
+.login_p2_mobile {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    font-family: Work Sans;
+    float: right;
+    display: none;
+    padding-top: 2px;
+}
+
+    .login_p2_mobile a {
+        font-size: 11px;
+        color: #fff;
+    }
+
+.login_a {
+    color: #fff !Important;
+}
+
+.slider_heading {
+    font-size: 54px;
+    color: #f37326;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+.slider_heading_span {
+    color: #000;
+}
+
+.slider_heading_h1 {
+    color: #000;
+    font-size: 54px;
+    font-weight: 300;
+}
+
+.slider_box {
+    padding-top: 30px;
+}
+
+.slider_text {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 115px;
+    width: 400px;
+    color: #3777b6;
+    padding-top: 75px;
+}
+
+.slider_text_span {
+    font-size: 28px;
+    font-weight: 600;
+    display: block;
+    line-height: 1.2em;
+}
+
+.slider_imgbox {
+    padding-left: 40px;
+}
+/*======= what is favly and favly biz css start here ====================*/
+.whatis_favly {
+    font-size: 54px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 126px;
+    padding-bottom: 122px;
+}
+
+.whatis_favly_text {
+    max-width: 610px;
+    margin: auto;
+    line-height: 42px;
+    font-size: 38px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.how_much_text {
+    max-width: 750px;
+    color: #494a4c;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.how_much_company {
+    font-size: 12px;
+}
+
+.membership_box {
+    background: #23265e;
+    max-width: 240px;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.membership_signup_text {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+    .membership_signup_text a {
+        color: #fff;
+    }
+
+.calculate_text {
+    font-size: 12px;
+    padding-top: 15px;
+    color: #f47a29;
+}
+
+    .calculate_text a {
+        color: #f47a29;
+    }
+
+.favly_biz_wrap {
+    margin-top: 100px;
+}
+
+.favly_biz_line {
+    text-align: center;
+    width: 100%;
+    margin-top: 107px;
+    margin-bottom: 50px;
+}
+
+.favly_biz_box {
+}
+
+.favly_biz_h1 {
+    color: #f47a29;
+    font-size: 54px;
+    font-weight: 300;
+}
+
+    .favly_biz_h1 span {
+        color: #000;
+    }
+
+.favly_biz_h2 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.favly_biz_h3 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 20px;
+    position: relative;
+}
+
+    .favly_biz_h3:before {
+        border-bottom: 4px solid #f47a29;
+        content: "";
+        width: 106px;
+        height: 50%;
+        position: absolute;
+        -moz-transform: rotate(-12deg);
+        top: 10px;
+    }
+
+.favly_biz_h4 {
+    color: #f47a29;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.favly_biz_p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Work Sans;
+}
+
+ul.favly_biz_list {
+    list-style: none;
+}
+
+    ul.favly_biz_list li {
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+
+.favly_biz_signup {
+    background: #2277bb;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.favlybiz_textfield {
+    border: solid 3px #939599;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.85);
+    height: 54px;
+    color: #6d6f73;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/*======= loging page css start here ====================*/
+.loginpage_textfield {
+    border: solid 3px #939599;
+    border-radius: 9px;
+    background: rgba(235, 237, 240, 0.85);
+    height: 54px;
+    color: #6d6f73;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.login_logo {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.forgot_passwordbox {
+    text-align: center;
+    color: #fff;
+    padding-top: 38px;
+}
+
+    .forgot_passwordbox a {
+        font-size: 14px;
+        color: #2277bb !important;
+        font-weight: 300;
+    }
+
+.login_page_bottombox {
+    text-align: center;
+    padding-top: 50px;
+}
+
+a.login_dontacctount {
+    font-size: 14px;
+    color: #58595b;
+    font-weight: 300;
+    display: inline-block;
+}
+
+a.join_biz {
+    font-size: 16px;
+    color: #2277bb;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.forgot_password_heading {
+    text-align: center;
+    color: #494a4d;
+    font-size: 38px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.forgot_password_wrap {
+    padding-top: 50px !important;
+}
+
+.forgot_password_lable {
+    font-size: 24px;
+    color: #000157;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.resend_text {
+    font-size: 19px;
+    color: #000157;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.resend_wrap {
+    max-width: 575px !important;
+}
+/*======= FAQ page css start here ====================*/
+.biz_arrow {
+    background: url(../images/biz_arrow.jpg) no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.faq_bg {
+    background: #e9edf2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.faq_wrap {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.faq_heading {
+    text-align: center;
+    color: #000;
+    font-size: 54px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+.faq-content ul {
+    list-style: none;
+}
+
+.faq-box li.q {
+    padding: 15px;
+    background: #fff;
+    border: solid 1px #bcbcbd;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+    .faq-box li.q:nth-child(odd) {
+        border-bottom: 0px;
+    }
+
+.faq-box li.last_q {
+    border-bottom: solid 1px #bcbcbd !important;
+}
+
+.faq-box li.a {
+    padding: 15px;
+    border: solid 1px #bcbcbd;
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    border-bottom: 0px;
+}
+
+.faq-box li.last_a {
+    border-bottom: solid 1px #bcbcbd !important;
+    border-top: 0px;
+}
+
+.faq-box .q h3 {
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #000;
+    background: url(../images/plus_icon.png) no-repeat center right;
+    padding-right: 20px;
+}
+
+    .faq-box .q h3.rotate {
+        background: url(../images/minus_icon.png) no-repeat center right;
+    }
+
+.faq_open {
+    background: url(../images/plus_icon.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    float: right;
+}
+
+.faq-box li.a {
+    display: none;
+}
+
+.faq_bgbox {
+    background: #fff;
+}
+
+footer {
+    background-color: #ebedf0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    footer h1 {
+        font-size: 38px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    footer ul {
+        list-style: none;
+        margin-top: 15px;
+    }
+
+        footer ul li {
+            display: block;
+            padding-top: 5px;
+        }
+
+            footer ul li a {
+                color: #fff;
+                font-size: 19px;
+                font-weight: 300;
+                font-family: Work Sans;
+            }
+
+                footer ul li a:hover {
+                    text-decoration: underline;
+                }
+
+    footer p {
+        color: #fff;
+        font-size: 19px;
+        font-weight: 300;
+        font-family: Work Sans;
+        padding-top: 21px;
+        margin-bottom: 21px;
+    }
+
+.appstore_btn {
+    background: url(../images/appstore_btn.png) no-repeat;
+    width: 224px;
+    height: 65px;
+    display: inline-block;
+}
+
+.googleplay_btn {
+    background: url(../images/googleplay_btn.png) no-repeat;
+    width: 224px;
+    height: 65px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mobile_view {
+    display: none;
+}
+
+.password_eye {
+    cursor: pointer;
+    background: url(../images/vector_eye.png) no-repeat;
+    width: 39px;
+    height: 23px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -36px;
+    right: 15px;
+}
+
+.password_eye_login {
+    cursor: pointer;
+    background: url(../images/vector_eye.png) no-repeat;
+    width: 39px;
+    height: 23px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -38px;
+    right: 15px;
+}
+
+.login_pagewrap {
+    background: #ebedf0;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    min-height: 670px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer_wrap {
+    background: #ebedf0;
+    padding-bottom: 60px;
+}
+
+.login_pagebg {
+    max-width: 590px;
+    margin: auto;
+    background: #fff;
+    padding: 35px;
+    padding-bottom: 38px;
+    box-shadow: 0px 1px 4px #888;
+}
+
+.forgotpassowrdbtn {
+    width: 175px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.resetpassowrdbtn {
+    width: 275px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.resend_linkbtn {
+    width: 260px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.form-group label {
+    font-weight: 600;
+    font-family: Work Sans;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.already_member {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Work Sans;
+    padding-top: 20px;
+}
+
+    .already_member a {
+        color: #252362;
+    }
+
+.login_heading_text {
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.confirm_email_heading {
+    font-size: 36px;
+    color: #6d6f73;
+    text-align: center;
+    font-weight: 300;
+    max-width: 282px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.confirm_heart {
+    background: url(../../dashboard2/images/emai_heart.png) no-repeat;
+    width: 62px;
+    height: 61px;
+    margin: auto;
+}
+
+.confirm_email_text {
+    font-size: 19px;
+    color: #6d6f73;
+    text-align: center;
+    margin-top: 45px;
+    padding-bottom: 50px;
+}
+
+.confirm_email_bold {
+    font-weight: 600;
+}
+
+.modal-content {
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.popup_close {
+    background: url(../../dashboard2/images/popup_close.png) no-repeat;
+    width: 24px;
+    height: 21px;
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin-bottom: 60px;
+    padding: 0;
+    *zoom: 1;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+    .bx-wrapper img {
+        max-width: 100%;
+    }
+
+.bxslider {
+    margin: 0;
+    padding: 0;
+}
+
+ul.bxslider {
+    list-style: none;
+}
+
+.bx-viewport {
+    /*fix other elements on the page moving (on Chrome)*/
+    -webkit-transform: translatez(0);
+}
+/** THEME
+===================================*/
+.bx-wrapper {
+}
+
+    .bx-wrapper .bx-pager,
+    .bx-wrapper .bx-controls-auto {
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+    }
+    /* LOADER */
+    .bx-wrapper .bx-loading {
+        min-height: 50px;
+        background: url(../images/bx_loader.gif) center center no-repeat #ffffff;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+    }
+    /* PAGER */
+    .bx-wrapper .bx-pager {
+        text-align: center;
+        font-size: .85em;
+        font-family: Arial;
+        font-weight: bold;
+        color: #666;
+        padding-top: 20px;
+        display: none;
+    }
+
+        .bx-wrapper .bx-pager.bx-default-pager a {
+            background: #666;
+            text-indent: -9999px;
+            display: block;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            outline: 0;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+            .bx-wrapper .bx-pager.bx-default-pager a:hover,
+            .bx-wrapper .bx-pager.bx-default-pager a.active,
+            .bx-wrapper .bx-pager.bx-default-pager a:focus {
+                background: #000;
+            }
+
+    .bx-wrapper .bx-pager-item,
+    .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+        display: inline-block;
+        vertical-align: bottom;
+        *zoom: 1;
+        *display: inline;
+    }
+
+    .bx-wrapper .bx-pager-item {
+        font-size: 0;
+        line-height: 0;
+    }
+    /* DIRECTION CONTROLS (NEXT / PREV) */
+    .bx-wrapper .bx-prev {
+        left: 10px;
+        background: url(../images/landing_arrow_left.png) no-repeat;
+    }
+
+        .bx-wrapper .bx-prev:hover,
+        .bx-wrapper .bx-prev:focus {
+            background-position: 0 0;
+        }
+
+    .bx-wrapper .bx-next {
+        right: 10px;
+        background: url(../images/landing_arrow_right.png) no-repeat;
+    }
+
+    .bx-wrapper .bx-controls-direction a {
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        outline: 0;
+        width: 43px;
+        height: 85px;
+        text-indent: -9999px;
+        z-index: 9999;
+    }
+
+        .bx-wrapper .bx-controls-direction a.disabled {
+            display: none;
+        }
+    /* AUTO CONTROLS (START / STOP) */
+    .bx-wrapper .bx-controls-auto {
+        text-align: center;
+    }
+
+        .bx-wrapper .bx-controls-auto .bx-start {
+            display: block;
+            text-indent: -9999px;
+            width: 10px;
+            height: 11px;
+            outline: 0;
+            background: url(../images/controls.png) -86px -11px no-repeat;
+            margin: 0 3px;
+        }
+
+            .bx-wrapper .bx-controls-auto .bx-start:hover,
+            .bx-wrapper .bx-controls-auto .bx-start.active,
+            .bx-wrapper .bx-controls-auto .bx-start:focus {
+                background-position: -86px 0;
+            }
+
+        .bx-wrapper .bx-controls-auto .bx-stop {
+            display: block;
+            text-indent: -9999px;
+            width: 9px;
+            height: 11px;
+            outline: 0;
+            background: url(../images/controls.png) -86px -44px no-repeat;
+            margin: 0 3px;
+        }
+
+            .bx-wrapper .bx-controls-auto .bx-stop:hover,
+            .bx-wrapper .bx-controls-auto .bx-stop.active,
+            .bx-wrapper .bx-controls-auto .bx-stop:focus {
+                background-position: -86px -33px;
+            }
+    /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+    .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+        text-align: left;
+        width: 80%;
+    }
+
+    .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+        right: 0;
+        width: 35px;
+    }
+    /* IMAGE CAPTIONS */
+    .bx-wrapper .bx-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #666;
+        background: rgba(80, 80, 80, 0.75);
+        width: 100%;
+    }
+
+        .bx-wrapper .bx-caption span {
+            color: #fff;
+            font-family: Arial;
+            display: block;
+            font-size: .85em;
+            padding: 10px;
+        }
+
+.download_appwrap {
+    background: #fff;
+    padding-top: 100px;
+}
+
+.download_app_imgbox {
+    text-align: center;
+}
+
+.download_appheading {
+    font-size: 54px;
+    color: #f47a29;
+    font-weight: 300;
+    line-height: 54px;
+    padding-bottom: 35px;
+    padding-right: 130px;
+}
+
+.download_app_store {
+    background: url(../images/appstore_btn.png) no-repeat;
+    width: 224px;
+    height: 65px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.download_googleplay {
+    background: url(../images/googleplay_btn.png) no-repeat;
+    width: 227px;
+    height: 65px;
+    display: inline-block;
+}
+
+.download_app_p {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 16px;
+    color: #000;
+}
+
+.download_app_input {
+    width: 465px;
+    height: 54px;
+    border-radius: 8px;
+    border: solid 3px #939599;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 19px;
+    color: #6d6f73;
+}
+
+.download_app_submit {
+    left: 10px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    background: #f47a29;
+    border: 0px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 1px;
+}
+
+.download_app_biz {
+    min-height: 642px;
+    background: transparent;
+}
+
+.download_app_biz_heading {
+    text-align: center;
+    font-size: 54px;
+    color: #000;
+    font-weight: 300;
+    padding-top: 164px;
+}
+
+.download_app_biz_content {
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 300;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+}
+
+.download_app_biz_btn {
+    text-align: center;
+    padding-top: 62px;
+}
+
+.download_app_biz_landingh1 {
+    text-align: center;
+    font-size: 54px;
+    color: #000;
+    font-weight: 300;
+    padding-top: 164px;
+}
+
+.download_app_biz_landingcontent {
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 300;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+}
+
+.favlybiz_creditcardbg {
+    min-height: 790px;
+    background: transparent;
+    border-top: solid 1px #696a6d;
+    border-bottom: solid 1px #fff;
+}
+
+.favlybiz_creditcard_heading {
+    text-align: center;
+    font-size: 54px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 60px;
+}
+
+/* .favlybiz_creditcard_leftbox {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 170px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 60px;
+} */
+
+.favlybiz_creditcard_leftbox {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 0;
+    padding-right: 26px;
+    line-height: 29px;
+}
+
+.favlybiz_creditcard_leftbox-psf {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 0;
+    padding-right: 26px;
+    line-height: 1.25em;
+	text-align: left;
+}
+
+.favlybiz_creditcard_leftbox-psf p {
+	margin-bottom: .4em;
+}
+
+.favlybiz_creditcard_leftbox-psf img {
+	margin-right: 8px;
+	clear: both;
+	float: left;
+}
+
+.favlybiz_creditcard_subhead {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.favlybiz_creditcard_rightboxbg {
+    background: #23255e;
+    padding: 25px;
+    margin-top: 76px;
+    min-height: 382px;
+}
+
+.creditcard_limitedoffer {
+    text-align: right;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.creditcard_price {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.creditcard_price_new {
+    float: right;
+}
+
+.creditcard_text {
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 65px;
+    font-family: Work Sans;
+}
+
+.creditcard_btn {
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    background: #f47a29;
+    border: 0px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.creditcard_btn_text {
+    font-size: 13px;
+    color: #fff;
+    font-family: Work Sans;
+    line-height: 16px;
+}
+
+.creditcard_price_x {
+    position: relative;
+}
+
+    .creditcard_price_x:before {
+        border-bottom: 4px solid #f47a29;
+        content: "";
+        width: 106px;
+        height: 50%;
+        position: absolute;
+        -moz-transform: rotate(-13deg);
+        -webkit-transform: rotate(-13deg);
+        top: 5px;
+    }
+
+.creditcard_icon {
+    background: url(../images/credit_card_img.jpg) no-repeat;
+    width: 45px;
+    height: 39px;
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 70px;
+    float: left;
+}
+
+.creditcard_cardbox {
+    position: relative;
+}
+
+.creditcard_icon_hide {
+    display: none !important;
+}
+/*========================================= main landing page css start =========================================*/
+ul.main_landingmenu {
+    list-style: none;
+    float: right;
+}
+
+    ul.main_landingmenu li {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        padding-left: 35px;
+    }
+
+        ul.main_landingmenu li a {
+            color: #fff;
+        }
+
+            ul.main_landingmenu li a:hover {
+                color: #fff;
+                text-decoration: underline;
+            }
+
+.landing_banner {
+    min-height: 593px;
+    background: transparent;
+}
+
+.landing_loginbox {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.landing_signupbtn {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f47a29;
+    border: 0px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 24px;
+}
+
+.landing_signup_alwyaysfree {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    text-transform: capitalize;
+    line-height: 14px;
+}
+
+.landing_signupbtn:hover {
+    color: #fff !important;
+}
+
+.landing_signupbtn:focus {
+    color: #fff !important;
+}
+
+.landing_bannerheading {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 300;
+    text-align: right;
+    line-height: 48px;
+    padding-top: 100px;
+    padding-right: 82px;
+}
+
+.landing_videobox {
+    background: #ebedf0;
+    width: 100%;
+}
+
+.landing_videoimg {
+    position: relative;
+}
+
+    .landing_videoimg img {
+        max-width: 100%;
+    }
+
+.video_playbtn {
+}
+
+.landing_scorebox {
+    background: #ebedf0;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -100px;
+}
+
+.landing_pointer {
+    background: url(../images/pointer.png) no-repeat;
+    width: 147px;
+    height: 147px;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+
+.landing_scorebox_heading {
+    font-size: 54px;
+    font-weight: 300;
+    color: #000;
+    padding-bottom: 100px;
+}
+
+.landing_scorebox_text {
+    font-size: 38px;
+    font-weight: 300;
+    color: #000;
+    line-height: 46px;
+}
+
+.landing_score_heart {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.onlin_toolbg {
+    background: url(../images/landing_gif_bg.png) repeat-x;
+}
+
+.onlinetool_banner img {
+    max-width: 100%;
+}
+
+.favly_asktext {
+    text-align: center;
+    max-width: 1024px;
+    margin: auto;
+    font-size: 28px;
+    font-weight: 300;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+.needfavly_h1 {
+    margin-bottom: 30px !important;
+}
+
+ul.needfavly_list {
+    list-style: none;
+    margin-top: 16px;
+}
+
+    ul.needfavly_list li {
+        color: #000;
+        font-size: 28px;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+
+.needfavly_list_text {
+    font-weight: 300;
+    padding-left: 25px;
+    line-height: 28px;
+    font-size: 26px;
+}
+
+.business_learnmore {
+    min-height: 642px;
+    background: transparent;
+    margin-top: 100px;
+}
+
+.videoclose_btn {
+    background: url(../images/landing_video_close_btn.png) no-repeat;
+    width: 20px;
+    height: 23px;
+    display: block;
+    right: -30px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.vimeo_video {
+    width: 100%;
+    height: 730px;
+}
+
+#video_vimeo .modal-content {
+    background: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+.navbar-default {
+    background: none;
+    border: 0px;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+        .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+            font-size: 20px;
+            color: #fff !important;
+            font-weight: 300;
+            background: #e57200;
+        }
+
+.navbar-toggle {
+    margin-top: 0px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #e57200;
+}
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #e57200;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #fff;
+    }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #252362;
+    background: #1e1c50;
+}
+
+.navbar-collapse {
+    box-shadow: none;
+}
+
+.expiration_date .select-wrapper {
+    display: inline-block;
+    background: url(../images/select_arrow.png) no-repeat right center;
+    background-color: rgb(255, 255, 255);
+    border: solid 3px #939599;
+    border-radius: 8px;
+    background-position: 96% 15px;
+    cursor: pointer;
+}
+
+    .expiration_date .select-wrapper, .expiration_date .select-wrapper select {
+        width: 100%;
+        height: 54px;
+        margin-bottom: 20px;
+        line-height: 47px;
+        padding-right: 10px;
+        color: #6d6f73;
+        font-size: 19px;
+        font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+
+        .expiration_date .select-wrapper .holder {
+            display: block;
+            margin: 0 35px 0 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .expiration_date .select-wrapper select {
+            margin: 0;
+            position: absolute;
+            z-index: 2;
+            cursor: pointer;
+            outline: none;
+            opacity: 0;
+            /* CSS hacks for older browsers */
+            _noFocusLine: expression(this.hideFocus=true);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(opacity=0);
+            -khtml-opacity: 0;
+            -moz-opacity: 0;
+        }
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: none !important;
+    border: solid 3px #939599 !important;
+}
+
+.biz_loginbtn_mobile {
+    display: none !important;
+}
+
+a.biz_loginbtn {
+    font-size: 14px;
+    color: #f47a29 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: solid 3px #f47a29;
+    border-radius: 8px;
+    padding: 5px 12px;
+}
+
+a:hover.biz_loginbtn {
+    color: #f47a29 !important;
+    text-decoration: none !important;
+}
+
+.biz_loginicon {
+    background: url(../images/header_biz_login.png) no-repeat;
+    width: 33px;
+    height: 33px;
+    display: block;
+    position: relative;
+    top: 7px;
+}
+
+.downloadapp_imgbox {
+    padding-top: 127px;
+    text-align: center;
+}
+
+.downloadapp_imgbox_h2 {
+    font-size: 28px;
+    color: #000;
+    font-weight: 300;
+    padding-top: 175px;
+    padding-right: 70px;
+}
+
+.downloadapp_imgbox_h1 {
+    font-size: 54px;
+    color: #f47a29;
+    font-weight: 300;
+    padding-top: 13px;
+    padding-bottom: 27px;
+    line-height: 68px;
+}
+
+.downloadapp_btnwrap {
+    text-align: left;
+}
+
+.downloadapp_btnbox {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.downloadapp_appstore_btn {
+    background: url(../images/appstore_btn.png) no-repeat;
+    width: 224px;
+    height: 65px;
+    display: block;
+}
+
+.downloadapp_googleplay_btn {
+    background: url(../images/googleplay_btn.png) no-repeat;
+    width: 224px;
+    height: 65px;
+    display: block;
+    position: relative;
+    top: 17px;
+}
+
+.googleplay_reglink {
+    display: inline-block;
+    position: relative;
+    top: 18px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Work Sans;
+}
+
+a.reglink {
+    color: #000;
+}
+
+.login_hearticon {
+    background: url(../images/favly_heart_icon.png) no-repeat;
+    width: 44px;
+    height: 43px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.favlybiz_creditcard_footer {
+    padding-top: 60px;
+}
+
+.googleplay_android {
+    display: block;
+    position: relative;
+    top: 28px;
+    color: #000;
+    line-height: 12px;
+    text-align: center;
+}
+
+a.android_userlink {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.downloadapp_androidbtn {
+    background: url(../images/googleplay_btn.png) no-repeat;
+    width: 224px;
+    height: 65px;
+    display: block;
+    position: relative;
+    top: 26px;
+}
+/*======= footer B css start here ====================*/
+.download_app_footerbox {
+    padding-bottom: 60px;
+}
+
+.download_app_footer {
+    margin-top: 60px !important;
+}
+
+ul.footerbox {
+    list-style: none;
+    text-align: center;
+}
+
+    ul.footerbox li {
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+        color: #58595b;
+        font-weight: 300;
+        font-family: Work Sans;
+    }
+
+        ul.footerbox li a {
+            font-size: 12px;
+            color: #58595b;
+            font-weight: 300;
+        }
+
+.text-danger {
+    font-size: 14px;
+    color: #ff0000;
+    font-family: Work Sans;
+    position: relative;
+    top: 5px;
+}
+
+/*============== terms conditions page css start ====================*/
+.terms_wrapfullbg {
+    background: #ebedf0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.terms_wrap {
+    background: #fff;
+    box-shadow: 0px 1px 4px #888;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+    .terms_wrap h2 {
+        color: #494a4d;
+        font-size: 38px;
+    }
+
+    .terms_wrap h3 {
+        color: #494a4d;
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .terms_wrap p {
+        margin-bottom: 40px;
+        color: #494a4d;
+    }
+
+    .terms_wrap ins {
+        color: #000;
+    }
+
+    .terms_wrap a {
+        color: #252362 !important;
+    }
+
+        .terms_wrap a:hover {
+            color: #f47a29 !important;
+        }
+
+        .terms_wrap a:focus {
+            color: #f47a29 !important;
+        }
+
+/*===============================================================================================================================================================*/
+.login_submitbox_p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.download_boxdesktop {
+    padding-left: 56px;
+    padding-top: 28px;
+}
+
+/*************************         CLAIM GIFT CARD **************************/
+.favlygifctcard_heading {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.favlygifctcard_msg {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.favlygifctcard_msg_heading {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.favlygifctcard_heading2 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.favlygifctcard_msg_heading2 {
+    font-size: 12px;
+}
+
+.favlygifctcard_user {
+    display: inline-block;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 13px;
+    margin-right: 15px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+
+.sharing_caring_heart {
+    background: url(../images/FavlyHeart_Gradient.png) no-repeat;
+    width: 22px;
+    height: 23px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+.favlygifctcard_locationbg {
+    background: url(../images/locationbg.png) no-repeat;
+    width: 71px;
+    height: 71px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.favlygifctcard_location {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 20px;
+    float: left;
+    max-width: 350px;
+    min-height: 120px;
+}
+
+.favlygifctcard_value {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+.favlygifctcard_locationbg_img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    margin-top: 3px;
+}
+
+.barcode {
+    padding-top: 20px;
+}
+
+    .barcode img {
+        max-width: 35%;
+    }
+
+.favlygifctcard_h1 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.favlygifctcard_p {
+    font-size: 12px;
+    color: #000;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+ul.favlygifctcard_list {
+    list-style: none;
+}
+
+    ul.favlygifctcard_list li {
+        font-weight: 400;
+        color: #000;
+        padding-bottom: 10px;
+        background: url(../images/giftcard_arrow.png) no-repeat 0 5px;
+        padding-left: 25px;
+    }
+
+.favlygifctcard_appstorebtn {
+    margin-top: 20px;
+    background: url(../images/download_appstore.png) no-repeat;
+    width: 145px;
+    height: 42px;
+    display: inline-block;
+}
+
+.favlygifctcard_googleplaybtn {
+    margin-left: 10px;
+    margin-top: 20px;
+    background: url(../images/download_googleplay.png) no-repeat;
+    width: 145px;
+    height: 42px;
+    display: inline-block;
+}
+
+.favlygifctcard_title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.newsubmit_btn {
+    width: 40%;
+    margin-top: 30px;
+}
+
+.newlogin_link {
+    font-size: 13px;
+    padding-top: 13px;
+}
+
+.InputElement {
+    color: #abaeb3 !important;
+}
+
+.onlinetool_banner_mobile {
+    display: none;
+}
+
+    .onlinetool_banner_mobile img {
+        max-width: 100%;
+    }
