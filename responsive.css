@@ -676,6 +676,11 @@
         margin-bottom: .7em;
     }
 
+    .favlybiz_creditcard_leftbox_subhead {
+        font-size: 26px;
+        line-height: 30px;
+    }
+	
     .creditcard_text {
         padding-left: 0px;
         padding-right: 0px;
@@ -1076,6 +1081,11 @@
 		margin-bottom: .7em;
     }
 
+    .favlybiz_creditcard_leftbox_subhead {
+        font-size: 20px;
+        line-height: 24px;
+    }
+	
 
     .forgot_password_heading {
         font-size: 28px;
