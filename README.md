@@ -8,6 +8,8 @@ in the HTML and CSS files within this repository.
 
 There is also a new class:  **.favlybiz_creditcard_subhead**
 
+Make sure to edit and/or add rules to both styles.css and responsive.css
+
 Please let me know if anything is missing!!
 
 
